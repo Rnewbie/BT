@@ -1,4 +1,4 @@
-## No corr cutoff
+## K-4 with caret package
 Unsuredata <- read.csv("~/Desktop/PythonKid/BT/LOPO/Unsuredata.csv", header =TRUE)
 data <- Unsuredata[-1]
 data <- data.frame(data)
@@ -17,7 +17,7 @@ cv <- lapply(x, function(x) {
   return(matrix)
 })
 cv
-## Trying to get things  done
+## Manual K 4
 Unsuredata <- read.csv("~/Desktop/PythonKid/BT/LOPO/Unsuredata.csv", header =TRUE)
 data <- Unsuredata[-1]
 data <- data.frame(data)
@@ -58,7 +58,7 @@ matrix3
 matrix4
 
 
-## Cross Validationg MAX CODE
+## K 4 Max Code
 library(plyr)
 library(randomForest)
 
