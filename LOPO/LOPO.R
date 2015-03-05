@@ -52,6 +52,11 @@ model4 <- randomForest(Activity~., data = Train4, ntree= 500)
 pred <- predict(model, Train4)
 actual <- Train4$Activity
 matrix4 <- table(pred, actual)
+matrix1
+matrix2
+matrix3
+matrix4
+
 
 ## Cross Validationg MAX CODE
 library(plyr)
